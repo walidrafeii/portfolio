@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './Landing.module.css';
+import React from "react";
+import styles from "./Landing.module.css";
 
 export const HeroText = () => {
   return (
@@ -7,12 +7,12 @@ export const HeroText = () => {
       <h1
         className={`${styles.hero__animation} text-4xl xl:text-6xl subpixel-antialiased font-bold text-slate-light`}
       >
-        Walid Rafei.
+        Walid Rafei
       </h1>
       <h4
         className={`${styles.hero__animation} text-2xl xl:text-4xl subpixel-antialiased font-semibold text-slate`}
       >
-        Junior Software Engineer
+        Software Engineer
       </h4>
       <p className={`${styles.hero__animation} text-slate mt-0 xl:mt-4`}>
         Delivering high-quality software with meticulous testing to ensure
