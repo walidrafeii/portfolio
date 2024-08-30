@@ -12,7 +12,7 @@ const AnimatedComponent: React.FC<AnimatedComponentProps> = ({ children }) => {
   const isVisible = animateOnAppear(ref);
 
   return (
-    <div ref={ref} className={`fade-in ${isVisible ? "visible" : ""}`}>
+    <div ref={ref} className={`w-full fade-in ${isVisible ? "visible" : ""}`}>
       {children}
     </div>
   );

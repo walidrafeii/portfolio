@@ -6,7 +6,7 @@ export const AboutSection = () => {
   return (
     /** About Section */
     <AnimatedComponent>
-      <section id="about" className="w-full xl:px-24">
+      <section id="about" className="w-full xl:px-20">
         {/* Header */}
         <div className="flex flex-row gap-5 md:gap-10 items-center justify-center xl:justify-start">
           <div className="h-[1px] bg-zinc-700 max-w-[20%] flex-grow xl:hidden"></div>
