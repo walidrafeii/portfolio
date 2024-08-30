@@ -19,9 +19,14 @@ export const NavMenu = () => {
           <li>Contact</li>
         </Link>
       </ul>
-      <button className="border-2 border-turquoise py-2 px-4 rounded-md text-xs hover:bg-navy-light text-slate-lightest">
-        Resume
-      </button>
+      <a
+        target="_blank"
+        href="https://wrafei-personal-work.s3.us-west-1.amazonaws.com/Walid_Rafei_Resume.pdf"
+      >
+        <button className="border-2 border-turquoise py-2 px-4 rounded-md text-xs hover:bg-navy-light text-slate-lightest">
+          Resume
+        </button>
+      </a>
     </div>
   );
 };

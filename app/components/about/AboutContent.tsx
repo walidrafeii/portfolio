@@ -5,10 +5,10 @@ import { AboutTimeline } from "./AboutTimeline";
 
 export const AboutContent = () => {
   return (
-    <div className="flex flex-col xl:flex-row mt-5 gap-10 justify-center">
+    <div className="flex flex-col xl:flex-row gap-14 xl:gap-10 justify-center mt-10 xl:mt-5">
       {/* Profile Image */}
-      <div className="relative w-[300px] h-[300px] border border-turquoise rounded-xl shrink-0 self-center">
-        <div className="absolute top-[15px] right-[-15px] w-[300px] h-[300px] rounded-xl overflow-hidden">
+      <div className="relative w-[250px] h-[250px] border border-turquoise rounded-xl shrink-0 self-center">
+        <div className="absolute top-[15px] right-[-15px] w-[250px] h-[250px] rounded-xl overflow-hidden">
           <Image
             src={ProfilePicture.src}
             alt="Description of image"

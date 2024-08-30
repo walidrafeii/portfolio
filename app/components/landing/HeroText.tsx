@@ -18,12 +18,14 @@ export const HeroText = () => {
         Delivering high-quality software with meticulous testing to ensure
         robust performance and reliability.
       </p>
-      <button
-        className={`${styles.hero__animation} border-2 font-medium border-turquoise mt-4 py-2 
+      <a href="mailto:wrafei@outlook.com">
+        <button
+          className={`${styles.hero__animation} border-2 font-medium border-turquoise mt-4 py-2 
                       px-4 rounded-md text-sm hover:bg-navy-light text-slate-lightest`}
-      >
-        Contact me
-      </button>
+        >
+          Contact me
+        </button>
+      </a>
     </div>
   );
 };
