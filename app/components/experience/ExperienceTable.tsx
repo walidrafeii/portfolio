@@ -51,7 +51,7 @@ export const ExperienceTable: React.FC<{ experiences: ExperienceEntry[] }> = ({
   };
 
   return (
-    <div className="flex flex-col items-center sm:flex-row sm:items-start justify-center md:w-[80%] mx-auto w-full mt-10 gap-12">
+    <div className="flex mt-20 flex-col items-center sm:flex-row sm:items-start justify-center md:w-[80%] xl:w-[70%] mx-auto w-full mt-10 gap-12">
       <div className="flex flex-row gap-2 w-fit h-fit">
         {/* Scroll Bar */}
         <div
@@ -87,8 +87,14 @@ export const ExperienceTable: React.FC<{ experiences: ExperienceEntry[] }> = ({
           }`}
         >
           <h3 className="font-semibold mb-2 text-slate-lightest text-lg">
-            {experiences[selectedExperienceIndex].title} -{" "}
-            {experiences[selectedExperienceIndex].position}
+            <a
+              className="text-link"
+              target="__blank"
+              href={`${experiences[selectedExperienceIndex].companyLink}`}
+            >
+              {experiences[selectedExperienceIndex].title}
+            </a>{" "}
+            - {experiences[selectedExperienceIndex].position}
           </h3>
           <p className="text-sm text-slate-light">
             {" "}

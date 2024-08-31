@@ -2,7 +2,7 @@ import { useState, useEffect, MutableRefObject } from "react";
 
 export const animateOnAppear = (
   ref: MutableRefObject<Element | null>,
-  threshold: number = 0.1
+  threshold: number = 0.3
 ): boolean => {
   const [hasIntersected, setHasIntersected] = useState<boolean>(false);
 

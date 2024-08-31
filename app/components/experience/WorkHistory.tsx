@@ -13,20 +13,20 @@ export const workHistory: ExperienceEntry[] = [
     ],
     startDate: "Sept. 2021",
     endDate: "Aug. 2024",
-    companyLink: "",
+    companyLink: "https://www.vmware.com",
   },
   {
     id: 2,
     title: "Hi Dev Mobile",
     position: "Software Engineer (Mobile)",
     points: [
-      "Contributed to the early stages of a new UI/UX project.",
-      "Collaborated with design team to refine wireframes and prototypes.",
-      "Developed key UI components in UIKit (Swift)",
+      "Played a pivotal role in the initial conceptualization and planning of a new UI/UX project.",
+      "Actively participated in brainstorming sessions to generate innovative ideas and design concepts.",
+      "Developed essential UI components in UIKit (Swift), utilizing best practices for efficient and maintainable code.",
     ],
     startDate: "Jan. 2021",
     endDate: "July 2021",
-    companyLink: "",
+    companyLink: "https://www.hidevmobile.com",
   },
   {
     id: 1,
@@ -39,7 +39,7 @@ export const workHistory: ExperienceEntry[] = [
     ],
     startDate: "May 2018",
     endDate: "Sept. 2018",
-    companyLink: "",
+    companyLink: "https://www.dell.com",
   },
   {
     id: 3,
@@ -51,6 +51,6 @@ export const workHistory: ExperienceEntry[] = [
     ],
     startDate: "Dec. 2017",
     endDate: "May 2018",
-    companyLink: "",
+    companyLink: "https://canadacollege.edu",
   },
 ];

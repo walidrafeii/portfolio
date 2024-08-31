@@ -2,6 +2,7 @@ import { ExperienceSection } from "./components/experience/ExperienceSection";
 import ExternalSocialLinks from "./components/landing/ExternalSocialLinks";
 import { HeroSection } from "./components/landing/HeroSection";
 import { AboutSection } from "./components/about/AboutSection";
+import { ProjectsSection } from "./components/projects/ProjectsSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ExperienceSection />
+      <ProjectsSection />
     </main>
   );
 }
